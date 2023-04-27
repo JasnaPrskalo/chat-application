@@ -22,6 +22,7 @@ export default function Input( {onSendMessage} ) {
           value={text}
           type='text'
           placeholder='Enter your message...'
+          
         />
         <button className='msg-form_btn'>Send</button>
       </form>

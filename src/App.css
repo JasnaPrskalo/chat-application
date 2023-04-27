@@ -62,7 +62,7 @@ h1 {
 /*Input*/
 .chat_input {
   flex-shrink: 0;
-  background-color: #cce1f7;
+  background-color: #e9eff6;
 }
 .msg-form {
   display: flex;
@@ -94,7 +94,7 @@ h1 {
   overflow-y: scroll;
   scroll-behavior: smooth;
   flex-grow: 1;
-  background-color: rgb(213, 244, 244);
+  background-color: rgb(248, 252, 252);
   height: 500px;
 }
 .message-list_msg {
