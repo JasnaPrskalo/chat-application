@@ -24,7 +24,7 @@ export default function App() {
 
   useEffect(() => {
     if (chat.messages.length) {
-      const scrollElement = document.getElementsByTagName('ul');
+      const scrollElement = document.getElementsByTagName('ul')[0];
       scrollElement.scrollTop = scrollElement.scrollHeight;
     }
   }, [chat.messages.length]);
